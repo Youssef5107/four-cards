@@ -1,0 +1,129 @@
+* {
+    display: grid;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins/Poppins-Light.ttf);
+}
+
+
+:root {
+    --Cyan: hsl(180, 62%, 55%);
+    --red: hsl(0, 78%, 62%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --DarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --LightGray: hsl(0, 0%, 98%);
+    --font: (15px);
+    --lessweight: (200);
+    --mediumweight: (400);
+    --highweight: (600);
+    --bckgroundcolor: (white);
+    --mainfont: (Poppins);
+
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Poppins;
+}
+
+
+.firstcard {
+    width: 350px;
+    border-top: solid 4px var(--red);
+    height: 250px;
+    background-color: white;
+    position: relative;
+    left: 550px;
+    box-shadow: 2px 2px 10px rgb(111 112 132)
+}
+
+.secondcard {
+    width: 350px;
+    border-top: solid 4px var(--Blue);
+    height: 250px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(111 112 132);
+    position: relative;
+    left: 950;
+    bottom: 85px;
+
+}
+
+.thirdcard {
+    width: 350px;
+    border-top: solid 4px var(--Orange);
+    height: 250px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(111 112 132);
+    position: relative;
+    left: 550px;
+    bottom: 170px;
+
+
+}
+
+.fourthcard {
+    width: 350px;
+    border-top: solid 4px var(--Cyan);
+    height: 250px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(111 112 132);
+    position: relative;
+    bottom: 600px;
+    left: 145px;
+
+}
+
+svg {
+    position: relative;
+    justify-content: end;
+    left: 255px;
+    top: 3px;
+
+}
+
+p {
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+}
+
+header {
+    font-size: 25px;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+
+}
+
+span {
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+}
+
+.title {
+    justify-content: center;
+}
+
+h2 {
+    justify-content: center;
+}
+
+h3 {
+    padding-left: 20px;
+}
+
+.cardtext {
+    padding-left: 20px;
+}
+
+@media(max-width: 1440px) {}
+
+@media(max-width:375px) {}
