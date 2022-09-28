@@ -54,12 +54,8 @@ body {
     height: 250px;
     background-color: white;
     box-shadow: 2px 2px 20px rgb(111 112 132);
-}
-
-.secondcard,
-.fourthcard {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .firstcard {
