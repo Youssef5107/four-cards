@@ -82,7 +82,7 @@ svg {
     position: relative;
     justify-content: end;
     left: 255px;
-    top: 3px;
+    top: -6px;
 }
 
 p {
@@ -96,22 +96,29 @@ header {
     justify-content: center;
     position: relative;
     top: 10px;
+    font-weight: 200;
+    color: var(--GrayishBlue);
 }
 
 span {
     justify-content: center;
+    font-weight: 200;
+    color: var(--GrayishBlue);
 }
 
 #title {
     text-align: center;
+    color: var(--GrayishBlue);
 }
 
 .title {
     justify-content: center;
+
 }
 
 h2 {
     justify-content: center;
+
 }
 
 h3 {
@@ -120,6 +127,8 @@ h3 {
 
 .cardtext {
     padding-left: 20px;
+    font-weight: 200;
+    color: var(--GrayishBlue);
 }
 
 @media(max-width: 1200px) {
