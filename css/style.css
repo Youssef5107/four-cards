@@ -46,52 +46,36 @@ body {
     align-items: center;
 }
 
-
+.fourthcard,
+.thirdcard,
+.secondcard,
 .firstcard {
     width: 350px;
-    border-top: solid 4px var(--red);
     height: 250px;
     background-color: white;
     box-shadow: 2px 2px 20px rgb(111 112 132);
+}
 
+.secondcard,
+.fourthcard {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
-
+.firstcard {
+    border-top: solid 4px var(--red);
 }
 
 .secondcard {
-    width: 350px;
     border-top: solid 4px var(--Blue);
-    height: 250px;
-    background-color: white;
-    box-shadow: 2px 2px 20px rgb(111 112 132);
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-
 }
 
 .thirdcard {
-    width: 350px;
     border-top: solid 4px var(--Orange);
-    height: 250px;
-    background-color: white;
-    box-shadow: 2px 2px 20px rgb(111 112 132);
-    margin-bottom: 40px;
-
 }
 
 .fourthcard {
-    width: 350px;
     border-top: solid 4px var(--Cyan);
-    height: 250px;
-    background-color: white;
-    box-shadow: 2px 2px 20px rgb(111 112 132);
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-
-
-
 }
 
 svg {
@@ -99,7 +83,6 @@ svg {
     justify-content: end;
     left: 255px;
     top: 3px;
-
 }
 
 p {
@@ -113,7 +96,6 @@ header {
     justify-content: center;
     position: relative;
     top: 10px;
-
 }
 
 span {
